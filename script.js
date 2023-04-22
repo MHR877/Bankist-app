@@ -140,7 +140,7 @@ const startLogoutTimer = function () {
     }
     time--;
   };
-  let time = 10;
+  let time = 180;
   tick();
   const timer = setInterval(tick, 1000);
   return timer;
